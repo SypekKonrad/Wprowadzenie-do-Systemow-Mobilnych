@@ -12,7 +12,7 @@ aktualne_ziarno = 1
 def ustaw_ziarno(ziarno):
     global aktualne_ziarno
     if ziarno is not None:
-        aktualne_ziarno = 1
+        aktualne_ziarno = ziarno
     else:
         aktualne_ziarno = 12345
 
@@ -64,5 +64,6 @@ plot.title('rozklad normalny (mu=10, sigma=2)')
 plot.hist(dane_normalny, bins=100, edgecolor='black', color='orange')
 plot.xlabel('wartosc')
 plot.ylabel('ilosc wystapien')
+
 
 plot.show()
