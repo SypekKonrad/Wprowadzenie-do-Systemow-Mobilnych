@@ -8,6 +8,6 @@ System składa się z określonej liczby kanałów oraz kolejki o zadanej długo
 ```aiignore
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements
+pip install -r requirements.txt
 python3 zadanie.py
 ```
